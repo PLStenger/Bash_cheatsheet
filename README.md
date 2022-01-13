@@ -36,3 +36,8 @@ ex:
 ### Known how many same genes are into same cluster (here, if only two replicate)
 
     awk 'seen[$0]++ && seen[$0] == 2' 
+
+
+### Other
+
+    awk '{print $1}'

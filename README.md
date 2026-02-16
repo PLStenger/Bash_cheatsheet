@@ -1,6 +1,10 @@
 # Bash_cheatsheet
 Useful tricks I always needs, I'm always searching and finding them hours after...
 
+# CLuster:
+
+### scp -r and exclude some extension files
+rsync -av --exclude='*.bam' --exclude='*.sai' CLUSTER:/home/XXXXXX/merged_reads/ .
 
 # Bash shell in OSX:
 
